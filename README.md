@@ -25,8 +25,15 @@ altrone
 
 🗄️ 4. Seed database
 
-    php artisan make:seeder ProductsSeeder (example)
-    php artisan migrate:fresh --seed
+    Seeder Example
+        php artisan make:seeder ProductsSeeder 
+        php artisan migrate:fresh --seed
+        
+    Controller Example
+
+        php artisan make:controller CartController
+        php artisan make:controller AdminOrderController
+    
 
 🧹 5. Clear caches (optional)
 

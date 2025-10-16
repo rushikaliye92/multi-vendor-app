@@ -52,6 +52,3 @@ altrone
 
 
 Open 👉 http://127.0.0.1:8004/
-
-<img width="1274" height="760" alt="Login Page" src="https://github.com/user-attachments/assets/9409ea8c-c0af-4046-8bf7-1f018d824b26" />
-

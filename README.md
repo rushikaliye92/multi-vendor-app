@@ -24,13 +24,16 @@ altrone
     php artisan migrate
 
 🗄️ 4. Seed database
+
     php artisan make:seeder ProductsSeeder (example)
     php artisan migrate:fresh --seed
 
 🧹 5. Clear caches (optional)
+
     php artisan optimize:clear
 
 🧱 6. Build assets
+
     npm run build
     # or
     npm run dev

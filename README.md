@@ -30,14 +30,16 @@ altrone
         php artisan migrate:fresh --seed
         
     Controller Example
-
         php artisan make:controller CartController
         php artisan make:controller AdminOrderController
-    
 
 🧹 5. Clear caches (optional)
 
-    php artisan optimize:clear
+    php artisan config:clear
+    php artisan cache:clear
+    php artisan route:clear
+    php artisan view:clear
+
 
 🧱 6. Build assets
 
